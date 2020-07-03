@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 
 <html lang = "en">
-    <head>
-        <title>Jessalyn Wang</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <script src="things.js"></script>
-        <link rel="icon" type="image/png" href="images/possiblelogo.png">
-    </head>
+<head>
+    <title>Jessalyn Wang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="things.js"></script>
+    <link rel="icon" type="image/png" href="images/possiblelogo.png">
+</head>
 
     <body>
         <nav class="header">
             <a href="index.html">Home</a>
             <a href="index.html#aboutid">About</a>
-            <a href="projects.html">Projects</a>
+            <a href="projects.html" id="proj-c">Projects</a>
             <a href="articles.html">Articles</a>
             <a href="index.html#contactid">Contact</a>
         </nav>
 
-        <div class="project_container" style="background-image: url('images/Projectwall-PixTeller.png')">
+        <div class="project_container" style="background-image: url('images/Projectwall-PixTeller.png')" id="proj">
 
         <div class="container-fluid">
             <div class="row justify-content-center" style="padding: 7%">
@@ -38,21 +39,36 @@
                             </p>
                             <p>Check it out <a href="https://github.com/JessalynWang/pyprojects/blob/master/fractal.py" id="whitelink">here</a>.</p>
                         </div>
-                        <div class="col-sm-4" style="padding: 20px;  text-align: center">
+                        <div class="col-sm-4" style="padding: 20px 0;  text-align: right; border: none">
                             <img src="images/turtex.PNG" class="rounded thumbimg">       
                         </div>
                     </div>
                 </div>
+
             </div>
+
+            <div class="row align-items-end">
+                <div class="mbCont mx-auto d-block">
+                    <a href="#moreid" id="more"><i class='fas fa-arrow-circle-down hiddenB' style='font-size:48px; color: white'></i></a>
+                </div>
+            </div>
+
         </div>
         </div>
 
-        <div class="container project_container" style="text-align: center; background-color: #00012b;">
-            <h3>Other projects coming soon</h3>
-            <br>
-            <h5>C + PIC32</h5>
-            <h5>Python</h5>
-            <h5>Websites</h5>
+        <div class="container-fluid project_container" style="text-align: center; background-color: #00012b;" id="moreid">
+            <div class="row align-items-start" style="min-height: 65px">
+                <div class="mbCont mx-auto d-block">
+                    <a href="#proj" id="proj-c2"><i class='fas fa-arrow-circle-up hiddenB' style='font-size:48px; color: white'></i></a>
+                </div>
+            </div>
+            <div style="padding: 30px">
+                <h3>Other projects coming soon</h3>
+                <br>
+                <h5>C + PIC32</h5>
+                <h5>Python</h5>
+                <h5>Websites</h5>
+            </div>
         </div>
 
     </body>
