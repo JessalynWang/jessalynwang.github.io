@@ -3,9 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Mono', 'Times New Roman';
+    font-family: 'Roboto Mono';
     -ms-overflow-style: none;
     scrollbar-width: none;
+    max-width: 100%;
 }
 
 *::-webkit-scrollbar {
@@ -86,12 +87,12 @@ nav > a:hover {
 }
 
 .about_pic {
-    max-height: 50vh;
+    max-height: 80vh;
     width: auto;
     border: 20px solid #00012b;
 }
 
-.col-sm-4, .col-sm-6 {
+.col-sm-4, .col-sm-6{
     padding: 10px;
 }
 
@@ -139,8 +140,57 @@ button:hover {
     overflow: hidden;
 }
 
+.project_container {
+    position: relative;
+    height: auto;
+    min-height: 100vh; 
+    max-width: 100%; 
+    padding: 10%;
+}
+
+.featured-program {
+    position: absolute;
+    padding: 3% 3%;
+    color: white;
+    background-color: #00012b;
+    border: 7px solid white;
+    border-radius: 10px;
+    text-align: left;
+
+    display: flex;
+    justify-content: center;
+}
+
+.featured-program > p > a:hover {
+    color: white;
+}
+
+.thumbimg {
+    max-height: 200px;
+    width: auto;
+}
+
+#whitelink:hover {
+    color: white;
+}
+
+.programs-table {
+    position: relative;
+    top: 50%;
+    left: 60%;
+    transform: translate(-60%, -30%);
+    display: table;
+    margin: 28% 1%;
+    border: 7px solid white;
+    border-radius: 10px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 960px) {
-    .col-sm-4, .col-sm-6 {
+    .col-sm-4, .col-sm-6, .col-sm-8{
         min-width: 100%;
     }
 }
