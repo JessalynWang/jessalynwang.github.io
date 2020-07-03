@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', 'Times New Roman';
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #00012b;
+    color: white;
+}
+
+nav{
+    background-color: #00012b;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav.header {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+nav > a {
+    font-size: 12px;
+    padding: 1%;
+    display: table-cell;
+    text-align: center;
+    border: none;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+
+nav > a:hover {
+    background-color: #525370;
+}
+
+.welcome_container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.wideimg {
+    padding-top: 3%;
+    object-fit: cover;
+    max-height: 100vh;
+    height: auto;
+    width: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about_container {
+    min-height: 100vh;
+    padding: 5% 8.5%;
+    background-color: white;
+    color: #00012b;
+    overflow: hidden;
+}
+
+.about_pic {
+    max-height: 50vh;
+    width: auto;
+    border: 20px solid #00012b;
+}
+
+.col-sm-4, .col-sm-6 {
+    padding: 10px;
+}
+
+p > a{
+    color: #525370;
+    text-decoration: underline;
+}
+
+p > a:hover {
+    color: #00012b;
+    text-decoration: underline;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #525370;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #00012b;
+}
+
+.buttontable {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    padding: 30px;
+}
+
+.btableC {
+    display: table-cell;
+    text-align: center;
+}
+
+.contact_container {
+    position: relative; 
+    min-height: 100vh; 
+    text-align: right; 
+    padding-right: 10%;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 960px) {
+    .col-sm-4, .col-sm-6 {
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <title>Jessalyn Wang</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/png" href="images/possiblelogo.png">
+    </head>
+
+    <script>
+        $(document).ready(function() {
+            $("#anchor").on('click', function(event) {
+                event.preventDefault();
+                var element = document.getElementById("indexid");
+
+                element.scrollIntoView({behavior: "smooth"});
+            });
+            $("#anchor1").on('click', function(event) {
+                event.preventDefault();
+                var element = document.getElementById("aboutid");
+
+                element.scrollIntoView({behavior: "smooth"});
+            });
+            $("#anchor2").on('click', function(event) {
+                event.preventDefault();
+                var element = document.getElementById("contactid");
+
+                element.scrollIntoView({behavior: "smooth"});
+            });
+        });
+    </script>
+
+    <body>
+        <nav class="header">
+            <a href="index.html" id="anchor">Home</a>
+            <a href="#aboutid" id="anchor1">About</a>
+            <a href="contact.html">Projects</a>
+            <a href="contact.html">Articles</a>
+            <a href="#contactid" id="anchor2">Contact</a>
+        </nav>
+
+        <div class="welcome_container" id="indexid">
+            <img src="images/MyPost.png" class="wideimg">
+            <div class="centered">
+                <h1 style="font-size: 100px; font-weight: bold">Jessalyn Wang</h1>
+                <p>UCSC'23 Computer Science</p>
+            </div>
+        </div>
+
+        <div class="container-fluid about_container" id="aboutid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1 style="font-size: 100px; font-weight: bold">Welcome!</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>Hello! My name is Jessalyn Wang and I am a rising sophomore studying Computer Science at UCSC. 
+                        Currently, I am taking summer courses at PCC while self-studying CS topics. 
+                        In my free time I search for new things to learn, write, draw, and watch embarrassingly-cheesy 
+                        Netflix shows.
+                    </p>
+
+                    <p>Aside from studying, I am also working as a Board Member/Website Coordinator
+                        of CBM (College Bound Mentorship program). We are a new program that aims to connect high school students
+                        to college student and college-graduate mentors who will advise the high school students on the college application
+                        process, resume building, internship opportunities, and more! Check out our website <a href="https://www.youtube.com/watch?v=8ybW48rKBME">here</a>.
+                         The website may or may not be still in development. Click at your own risk!
+                    </p>
+
+                    <div class="buttontable">
+                        <div class="btableC">
+                            <button onclick="document.location='files/20256.pdf'" download>Resume</button>
+                        </div>
+                        <div class="btableC">
+                            <button onclick="window.location.href='https://www.linkedin.com/in/jessalyn-wang-84a0261a5/'; " download>LinkedIn</button>
+                        </div>
+                        <div class="btableC">
+                            <button onclick="window.location.href='https://github.com/JessalynWang'; " download>Github</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <img src="images/profpic.JPG" class="mx-auto d-block about_pic">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid contact_container" id="contactid">
+            <img src="images/contactwall.png" class="wideimg">
+            <div class="container" style="position: absolute; padding: 20px; top: 50%; left: 62.5%; transform: translate(-62.5%, -50%)">
+                <h1 style="font-size: 100px; font-weight: bold">Contact</h1>
+                <p><b>School email: </b>jwang456@ucsc.edu</p>
+                <p><b>Personal email: </b>jess4lynwang@gmail.com</p>
+                <p><b>Mobile phone: </b>+1(626)-417-2090</p>
+            </div>
+        </div>
+
+    </body>
+</html>
