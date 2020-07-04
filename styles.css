@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: 'Roboto Mono';
     -ms-overflow-style: none;
-    scrollbar-width: none;
     max-width: 100%;
 }
 
@@ -221,13 +220,14 @@ h3 {
     border: 5px solid #00012b;
     padding: 15px 20px;
     border-radius: 10px;
-    transition: all 0.3s ease;
+    background-image: url("images/Lightnings-PixTeller.png");
+    background-size: 100%;
+    background-position: 0 15%;
 }
 
-#decorated:hover {
-    background-image: url("images/Lightnings-PixTeller.png");
-    overflow: hidden;
-}
+    #decorated:hover {
+        background-position: center;
+    }
 
 @media only screen and (max-width: 960px) {
     .col-sm-4, .col-sm-6, .col-sm-8{
