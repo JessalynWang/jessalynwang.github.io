@@ -4,6 +4,7 @@
 	"image": "images/lightnings.png",
 	"content": [
 		"<h4>Abstract</h4>",
-    "<p>A summary of TIAB here</p>"
+    "<p>Space is the final unexplored frontier, a wealth of untapped knowledge and resources. With this research paper we hope to present outer space as it was, how it is, and how it will be. We explore topics such as the history of space travel, current space treaties and law, asteroid mining and space resources, deep space and far future technologies, and the ethics of space travel and how we should go about it.</p>",
+    "<p>Check out the full paper <a href='files/Space_Research_Paper.pdf'>here</a>.</p>"
 	]
 }
