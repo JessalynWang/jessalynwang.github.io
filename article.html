@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Jessalyn Wang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="things.js"></script>
+    <link rel="icon" type="image/png" href="images/possiblelogo.png">
+</head>
+
+    <body>
+        <nav class="header">
+            <a href="index.html">Home</a>
+            <a href="index.html#aboutid">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="articles.html">Articles</a>
+            <a href="index.html#contactid">Contact</a>
+        </nav>
+
+        <div class="container-fluid articles_container" style="padding: 6% 45vh; max-width: 100%">
+            <h1 id="title">[varied content]</h1>
+            <br>
+            <p id="author">[varied content]</p>
+            <hr>
+            <br>
+            <p id="text">[varied content]</p>
+        </div>
+
+    </body>
+</html>
+
+<script>
+    (function loadContent() {
+        let xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                let articleData = JSON.parse(this.responseText);
+                addContent(articleData);
+            }
+        };
+        let name = location.search.substring(3);
+        xmlhttp.open("GET", "articles/" + name + ".json", true);
+        console.log(name);
+        xmlhttp.send();
+
+    })();
+
+    function addContent(articleData) {
+        let titles = document.getElementById("title");
+        for (let a in titles) titles[a].innerHTML = articleData.title;
+
+        let authors = document.getElementById("author");
+        for (let a in authors) authors[a].innerHTML = articleData.authors;
+
+        let contents = document.getElementById("text");
+        let _ = "";
+        for(let a in articleData.content) {
+            _ = _ + articleData.content[a] + "<br>";
+        }
+        contents.innerHTML = _;
+    }
+</script>

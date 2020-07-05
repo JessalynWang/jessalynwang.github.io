@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\articles",
+    "\\files",
+    "\\images"
   ],
-  "SelectedNode": "\\things.js",
+  "SelectedNode": "\\articles.html",
   "PreviewInSolutionExplorer": false
 }
