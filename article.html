@@ -23,47 +23,28 @@
             <a href="articles.html">Articles</a>
             <a href="index.html#contactid">Contact</a>
         </nav>
-
-        <div class="container-fluid articles_container" style="padding: 6% 45vh; max-width: 100%">
-            <h1 id="title">[varied content]</h1>
+        
+        <div class="container-fluid articles_container dynpad">
+            <h1 class="title">[varied content]</h1>
             <br>
-            <p id="author">[varied content]</p>
+            <p class="author" style="font-size: 12px;">[varied content]</p>
             <hr>
             <br>
-            <p id="text">[varied content]</p>
+            <div id="text">[varied content]</div>
         </div>
 
     </body>
 </html>
 
-<script>
-    (function loadContent() {
-        let xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                let articleData = JSON.parse(this.responseText);
-                addContent(articleData);
-            }
-        };
-        let name = location.search.substring(3);
-        xmlhttp.open("GET", "articles/" + name + ".json", true);
-        console.log(name);
-        xmlhttp.send();
-
-    })();
-
-    function addContent(articleData) {
-        let titles = document.getElementById("title");
-        for (let a in titles) titles[a].innerHTML = articleData.title;
-
-        let authors = document.getElementById("author");
-        for (let a in authors) authors[a].innerHTML = articleData.authors;
-
-        let contents = document.getElementById("text");
-        let _ = "";
-        for(let a in articleData.content) {
-            _ = _ + articleData.content[a] + "<br>";
-        }
-        contents.innerHTML = _;
+<style>
+    .dynpad {
+        padding: 6% 30vw; 
+        max-width: 100%;
     }
-</script>
+
+    @media only screen and (max-width: 920px){
+        .dynpad {
+            padding: 6% 10vh;
+        }
+    }
+</style>

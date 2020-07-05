@@ -1,9 +1,9 @@
 {
 	"title": "To Infinity and Beyond",
-	"authors": "Will Chiang, Jack Edgar, Sarah Mchugh, Alex Pitcher, Gray Thoron, Jessalyn Wang",
+	"authors": "By: Will Chiang, Jack Edgar, Sarah Mchugh, Alex Pitcher, Gray Thoron, Jessalyn Wang",
 	"image": "images/lightnings.png",
 	"content": [
-		"<h6>Abstract</h6>",
+		"<h4>Abstract</h4>",
     "<p>A summary of TIAB here</p>"
 	]
 }
