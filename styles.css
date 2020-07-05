@@ -151,14 +151,14 @@ button:hover {
 }
 
 .buttontable {
-    display: table;
-    table-layout: fixed;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     padding: 30px;
 }
 
 .btableC {
-    display: table-cell;
+    flex: 1;
     text-align: center;
 }
 
