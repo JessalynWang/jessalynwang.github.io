@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: 'Roboto Mono';
     -ms-overflow-style: none;
-    max-width: 100vw;
 }
 
 
@@ -20,17 +19,18 @@ body {
 }
 
 nav{
+    display: flex;
+    flex-direction: row;
     background-color: #00012b;
     position: fixed;
     width: 100%;
     z-index: 999;
 }
 
-nav.header {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
+@media only screen and (min-width: 768px) {
+    nav { flex-direction: row; }
 }
+
 
 a {
     color: white;
@@ -43,17 +43,33 @@ a:hover {
 
 
 nav > a {
-    font-size: 12px;
+    flex: 1;
+    font-size: 80%;
     padding: 1%;
-    display: table-cell;
     text-align: center;
     border: none;
     transition: all 0.3s ease;
     letter-spacing: 1px;
 }
 
-nav > a:hover {
+nav > a.navlogo {
+    flex: 3;
+    text-align: left;
+    width: 30%;
+    padding: .5% 0 .5% 1%;
+}
+
+nav > a:not(.navlogo):hover {
     background-color: #525370;
+}
+
+nav > a > img {
+    padding: 0;
+}
+
+.navimg {
+    max-height: 5vh;
+    width: auto;
 }
 
 .welcome_container {

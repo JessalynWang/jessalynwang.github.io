@@ -16,6 +16,18 @@ $(document).ready(function () {
             }
             , 100);
     });
+    $("#anchor3").on('click', function (event) {
+
+        event.preventDefault();
+
+        setTimeout(
+            function () {
+                var element = document.getElementById("indexid");
+
+                element.scrollIntoView({ behavior: "smooth" });
+            }
+            , 100);
+    });
     $("#anchor1").on('click', function(event) {
         event.preventDefault();
 
