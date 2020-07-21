@@ -254,6 +254,11 @@ h3 {
     background-position: center;
 }
 
+#wh1 {
+    font-size: 100px;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 960px) {
     .col-sm-4, .col-sm-6, .col-sm-8{
         min-width: 100%;
@@ -272,5 +277,15 @@ h3 {
 @media only screen and (min-width: 2000px) {
     .featured {
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .thumbimg1 {
+        visibility: hidden;
+    }
+
+    .about_container > .row > .col-sm-4 > #wh1 {
+        font-size: 50px;
     }
 }
