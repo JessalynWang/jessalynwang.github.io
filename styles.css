@@ -52,7 +52,7 @@ nav > a {
     letter-spacing: 1px;
 }
 nav > span {
-    flex: 4;
+    flex: 5;
     padding: .5% 0 .5% 1%;
 }
 
@@ -70,7 +70,8 @@ nav > a > img {
 }
 
 .navimg {
-    max-height: 5vh;
+    position: absolute;
+    height: 80%;
     width: auto;
 }
 
@@ -101,6 +102,7 @@ nav > a > img {
 }
 
 .about_container {
+    width: 100%;
     min-height: 100vh;
     padding: 5% 8.5%;
     background-color: white;
