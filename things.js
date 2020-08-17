@@ -85,7 +85,7 @@ $(document).ready(function () {
     });
 });
 
-(function loadContent() {
+function loadContent() {
     let xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
@@ -97,7 +97,7 @@ $(document).ready(function () {
     xmlhttp.open("GET", "https://jessalynwang.github.io/articles/" + name + ".json", true);
     xmlhttp.send();
 
-})();
+}
 
 function addContent(articleData) {
     let titles = document.getElementsByClassName("title");
