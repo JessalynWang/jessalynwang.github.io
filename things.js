@@ -112,3 +112,24 @@ function addContent(articleData) {
     }
     contents.innerHTML = _;
 }
+
+function toggledrop(x) {
+    switch (x) {
+        case 'c':
+            var element = document.getElementById("cdrop");
+            element.classList.toggle("hide");
+            break;
+        case 'p':
+            var element = document.getElementById("pdrop");
+            element.classList.toggle("hide");
+            break;
+        case 'w':
+            var element = document.getElementById("wdrop");
+            element.classList.toggle("hide");
+            break;
+        case 'm':
+            var element = document.getElementById("mdrop");
+            element.classList.toggle("hide");
+            break;
+    }
+}

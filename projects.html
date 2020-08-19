@@ -58,17 +58,44 @@
         </div>
 
         <div class="container-fluid project_container" style="text-align: center; background-color: #00012b;" id="moreid">
-            <div class="row align-items-start" style="min-height: 65px">
-                <div class="mbCont mx-auto d-block">
-                    <a href="#proj" id="proj-c2"><i class='fas fa-arrow-circle-up hiddenB' style='font-size:48px; color: white'></i></a>
-                </div>
-            </div>
             <div style="padding: 30px">
-                <h3>Other projects will be listed soon</h3>
+                <h3>Other Projects</h3>
                 <br>
-                <h5>C + PIC32</h5>
-                <h5>Python</h5>
-                <h5>Websites</h5>
+                <div class="dropdown">
+                    <button onclick="toggledrop('c')" class="dropbtn">C + PIC32</button>
+                    <div id="cdrop" class="hide">
+                        <div class="dropcontent">
+                            <a href="https://github.com/JessalynWang/Battleboats" class="droplink" target="_blank">Battelboats</a>
+                            <a href="https://github.com/JessalynWang/CSE13E" class="droplink" target="_blank">CSE13E</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button onclick="toggledrop('p')" class="dropbtn">Python</button>
+                    <div id="pdrop" class="hide">
+                        <div class="dropcontent">
+                            <a href="https://github.com/JessalynWang/CSE30" class="droplink" target="_blank">CSE30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button onclick="toggledrop('w')" class="dropbtn">Websites</button>
+                    <div id="wdrop" class="hide">
+                        <div class="dropcontent">
+                            <a href="https://oferafoundation.github.io" class="droplink" target="_blank">OFERA</a>
+                            <a href="https://educationatlas.github.io" class="droplink" target="_blank">EAF</a>
+                            <a href="https://jessalynwang.github.io/americanturf" class="droplink" target="_blank">APES</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button onclick="toggledrop('m')" class="dropbtn">Miscellaneous</button>
+                    <div id="mdrop" class="hide">
+                        <div class="dropcontent">
+                            <a href="https://github.com/JessalynWang/CSE12" class="droplink" target="_blank">CSE12</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

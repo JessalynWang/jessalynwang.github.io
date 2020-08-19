@@ -289,3 +289,52 @@ h3 {
         font-size: 50px;
     }
 }
+
+.contactlink {
+    color: white;
+}
+
+.contactlink:hover {
+    color: #525370;
+}
+
+.dropbtn {
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    background-color: #00012b;
+    border: 2px solid white;
+    border-radius: 0px;
+    padding: 5px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.dropbtn:hover {
+    background-color: #525370;
+}
+
+.dropcontent {
+    background-color: #8f7856;
+    padding: 20px;
+    border: 2px solid white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hide {
+    display: none;
+}
+
+.droplink {
+    background-color: #00012b;
+    transition: all 0.3s ease;
+    flex: 1;
+    padding: 20px;
+    border: 2px solid white;
+    margin: 3px;
+}
+
+.droplink:hover {
+    background-color: #525370;
+}
