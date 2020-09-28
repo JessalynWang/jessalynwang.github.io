@@ -102,9 +102,8 @@ nav > a > img {
 }
 
 .about_container {
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
-    padding: 5% 8.5%;
     background-color: white;
     color: #00012b;
 }
@@ -120,7 +119,8 @@ nav > a > img {
 .about_pic {
     max-height: 80vh;
     width: auto;
-    border: 20px solid #00012b;
+    border: 10px solid #00012b;
+    border-radius: 15px;
 }
 
 .col-sm-4, .col-sm-6{
@@ -138,24 +138,23 @@ p > a:hover {
 }
 
 button {
-    margin-top: 20px;
-    background-color: #525370;
+    background-color: #71729a;
     color: white;
     padding: 5px 10px;
-    border: none;
+    border: 2px solid white;
     border-radius: 50px;
     font-size: 20px;
 }
 
 button:hover {
-    background-color: #00012b;
+    background-color: #131442;
 }
 
 .buttontable {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 30px;
+    flex-wrap: wrap;
 }
 
 .btableC {
@@ -281,9 +280,6 @@ h3 {
 }
 
 @media only screen and (max-width: 768px) {
-    .thumbimg1 {
-        visibility: hidden;
-    }
 
     .about_container > .row > .col-sm-4 > #wh1 {
         font-size: 50px;
