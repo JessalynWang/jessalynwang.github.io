@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+<head>
+    <title>Jessalyn Wang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="things.js"></script>
+    <link rel="icon" type="image/png" href="images/Main_Logo.png">
+</head>
+
+    <body>
+        <nav>
+            <span><a href="index.html" class="navlogo"><img src="images/Main_Logo_Inv.png" class="navimg"></a></span>
+            <a href="index.html">Home</a>
+            <a href="index.html#aboutid">About</a>
+            <a href="projects.html" id="proj-c">Projects</a>
+            <a href="articles.html">Articles</a>
+            <a href="index.html#contactid">Contact</a>
+        </nav>
+
+        <div class="project_container" style="background-image: url('images/Projectwall-PixTeller.png'); background-size: 100%; background-position: 50% 40%; background-attachment: fixed" id="proj">
+
+        <div class="container-fluid" style="position: relative">
+            <div class="row justify-content-center featured">
+                <div class="col-md-8" style="border: 5px solid white; padding: 20px; border-radius: 10px; background-color: #00012b;">
+                    <div class="row">
+                        <div class="col-md-8" style="text-align: left">
+                            <h3>Featured Program: 3D Landscape Generator</h3>
+                            <br>
+                            <p style="text-align: left">Using Python and Turtle graphics, I designed and implemented a stochastic algorithm to produce
+                                fractal behavior that mimics natural landscapes. Each landscape is an animation rotated along
+                                the z-axis. The example image is of a landscape at recursive depth 3.
+                            </p>
+                            <p>Check it out <a href="https://github.com/JessalynWang/pyprojects/blob/master/fractal.py" id="whitelink" target="_blank">here</a>.</p>
+                        </div>
+                        <div class="col-md-4" style="padding: 20px 0;  text-align: center; border: none">
+                            <img src="images/turtex.PNG" class="rounded thumbimg">       
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row align-items-end">
+                <div class="mbCont mx-auto d-block">
+                    <a href="#moreid" id="more"><i class='fas fa-arrow-circle-down hiddenB' style='font-size:48px; color: white'></i></a>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+        <div class="container-fluid project_container" style="text-align: center; background-color: #00012b;" id="moreid">
+            <div style="padding: 30px">
+                <h3>Other Projects</h3>
+                <br>
+                <div class="dropdown">
+                    <button onclick="toggledrop('c')" class="dropbtn">C + PIC32</button>
+                    <div id="cdrop" class="hide">
+                        <div class="dropcontent">
+                            <a href="https://github.com/JessalynWang/Battleboats" class="droplink" target="_blank">Battelboats</a>
+                            <a href="https://github.com/JessalynWang/CSE13E" class="droplink" target="_blank">CSE13E</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button onclick="toggledrop('p')" class="dropbtn">Python</button>
+                    <div id="pdrop" class="hide">
+                        <div class="dropcontent">
+                            <a href="https://github.com/JessalynWang/CSE30_Public" class="droplink" target="_blank">CSE30</a>
+                            <a href="https://github.com/JessalynWang/ML" class="droplink" target="_blank">ML</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button onclick="toggledrop('w')" class="dropbtn">Websites</button>
+                    <div id="wdrop" class="hide">
+                        <div class="dropcontent">
+                            <a href="https://oferafoundation.github.io" class="droplink" target="_blank">OFERA</a>
+                            <a href="http://educationatlasf.org/" class="droplink" target="_blank">EAF</a>
+                            <a href="https://jessalynwang.github.io/americanturf" class="droplink" target="_blank">APES</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button onclick="toggledrop('m')" class="dropbtn">MIPS Assembly + Circuit Logic</button>
+                    <div id="mdrop" class="hide">
+                        <div class="dropcontent">
+                            <a href="https://github.com/JessalynWang/CSE12" class="droplink" target="_blank">CSE12</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
