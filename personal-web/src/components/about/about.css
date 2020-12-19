@@ -1,0 +1,140 @@
+.about {
+    background-color: var(--white);
+    color: var(--deep_purple);
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cluster {
+    border: 3px solid var(--deep_purple);
+    border-radius: 5px;
+    padding: 10px;
+    height: 420px;
+    width: 830px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-title {
+    font-size: 5em;
+    width: 46.9%;
+    padding-right: 20px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-desc {
+    width: 46.9%;
+    padding: 10px;
+    border: 1px solid var(--deep_purple);
+    border-radius: 5px;
+    height: 220px;
+}
+
+.skills {
+    border: 1px solid var(--deep_purple);
+    border-radius: 5px;
+    padding: 10px;
+    width: 46.9%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skills > div > i {
+    font-size: 50px;
+}
+
+.about-header {
+    height: 30px;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    width: 46.9%;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-link {
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    width: 46.9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--deep_purple);
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 5px #ffffff;
+    transition: all .3s ease;
+    color: black;
+}
+
+.about-link:hover {
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.tech4good {
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.65), 
+            rgba(255, 255, 255, 0.65)
+        ),
+        url("../../images/tech4good.PNG");
+}
+
+.wave {
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.65), 
+            rgba(255, 255, 255, 0.65)
+        ),
+        url("../../images/wave.PNG");
+}
+
+.ntxsc {
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.65), 
+            rgba(255, 255, 255, 0.65)
+        ),
+        url("../../images/ntsc.PNG");
+}
+
+.tech4good, .ntxsc, .wave {
+    background-position: center;
+    background-size: contain;
+    background-repeat: space;
+}
+
+@media only screen and (max-width: 880px) {
+    .cluster {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        border: none;
+        min-height: 150vh;
+        background-color: white;
+    }
+
+    .about-desc, .about-header, .about-link, .about-title, .skills {
+        width: 80vw;
+    }
+
+    .about-desc {
+        height: 260px;
+    }
+}

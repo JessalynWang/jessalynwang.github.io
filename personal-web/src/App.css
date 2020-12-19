@@ -1,0 +1,9 @@
+:root {
+  --deep_purple: #00012b;
+  --white: #ffffff;
+  --light_purple: #71729a;
+}
+
+.App {
+  color: black;
+}

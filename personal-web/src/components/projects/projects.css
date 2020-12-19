@@ -1,0 +1,62 @@
+.projects {
+    background-color: var(--deep_purple);
+    color: var(--white);
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.projects-title {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sub-title {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.sub-title > button {
+    color: white;
+    font-size: 16px;
+    background-color: var(--deep_purple);
+    width: 200px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.sub-title > button > div {
+    width: 100px;
+}
+
+.sub-title > button:hover {
+    background-color: var(--light_purple);
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.center {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
