@@ -1,7 +1,7 @@
 .home {
     color: var(--white);
     background-color: var(--deep_purple);
-    background-image: url("https://raw.githubusercontent.com/JessalynWang/jessalynwang.github.io/master/images/MyPost.png");
+    background-image: url("../../images/MyPost.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
