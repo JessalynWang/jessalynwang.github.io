@@ -1,80 +1,81 @@
-{
-    "python" : [
-        {
-            "name": "3D Fractal Landscape Generator",
-            "uses": "Python",
-            "link": "https://github.com/JessalynWang/CSE30_Public",
-            "image": "turtex.PNG",
-            "description": "Generates a spinning 3D landscape using an algorithm that recursivley draws fractal triangles of varied dimensions"
-        },
+[
+    {
+        "name": "Data Structures and Algorithms",
+        "data": [
+            {
+                "name": "3D Fractal Landscape Generator",
+                "uses": "Python",
+                "link": "https://github.com/JessalynWang/CSE30_Public",
+                "image": "turtex.PNG",
+                "description": "Generates a spinning 3D landscape using an algorithm that recursivley draws fractal triangles of varied dimensions"
+            },
 
-        {
-            "name": "Subvocalization Classifier",
-            "uses": "Python, PyTorch, Numpy, scikit-learn, Pandas",
-            "link": "https://github.com/NeuroTechSC/neurotechML",
-            "image": "emg.jpg",
-            "description": "Machine learning model that can classify between 'yes' and 'no' from subvocalized EMG data. Reaches up to 95% accuracy."
-        },
+            {
+                "name": "BattleBoats",
+                "uses": "Embedded C",
+                "link": "https://github.com/JessalynWang/Battleboats",
+                "image": "battleship.jpg",
+                "description": "A recreation of Battleship using embedded systems and state machines for two PIC32 microcontrollers."
+            },
 
-        {
-            "name": "Sudoku Solver",
-            "uses": "Python",
-            "link": "https://colab.research.google.com/drive/1bZ22cJH3oWLNwTHKbp8WN-MlXj1q0Fu9?usp=sharing",
-            "image": "sudoku.jpg",
-            "description": "Solves 9x9 Sudoku puzzles using efficient backpropagation heuristics. Work In Progress (will be made into a react + flask app)"
-        }
-    ],
+            {
+                "name": "NQueens",
+                "uses": "C++",
+                "link": "https://github.com/JessalynWang/nqueens",
+                "image": "chess.jpg",
+                "description": "Solves the classic 8 queens problem but for boards to size 15. Also determines if a board with pre-placed queens is solvable."
+            },
 
-    "cpp" : [
-        {
-            "name": "BattleBoats",
-            "uses": "Embedded C",
-            "link": "https://github.com/JessalynWang/Battleboats",
-            "image": "battleship.jpg",
-            "description": "A recreation of Battleship using embedded systems and state machines for two PIC32 microcontrollers."
-        },
+            {
+                "name": "AVL Tree",
+                "uses": "C++",
+                "link": "https://github.com/JessalynWang/avl",
+                "image": "filler.png",
+                "description": "An implementation of a self-balancing AVL tree that handles range-queries."
+            },
 
-        {
-            "name": "NQueens",
-            "uses": "C++",
-            "link": "https://github.com/JessalynWang/nqueens",
-            "image": "chess.jpg",
-            "description": "Solves the classic 8 queens problem but for boards to size 15. Also determines if a board with pre-placed queens is solvable."
-        },
+            {
+                "name": "Hollywood Graph Path Finder",
+                "uses": "C++",
+                "link": "https://github.com/JessalynWang/hollywood",
+                "image": "film.jpg",
+                "description": "A graph made with data scraped from IMBD that finds the shortest path between actors/actresses with a BFS."
+            }
+        ]
+    },
 
-        {
-            "name": "AVL Tree",
-            "uses": "C++",
-            "link": "https://github.com/JessalynWang/avl",
-            "image": "filler.png",
-            "description": "An implementation of a self-balancing AVL tree that handles range-queries."
-        },
+    {
+        "name": "Web Dev",
+        "data" : [
+            {
+                "name": "Education Atlas",
+                "uses": "HTML/CSS, JavaScript, AWS, Flask, Python",
+                "link": "http://educationatlasf.org/",
+                "image": "EAF.png",
+                "description": "Website for connecting high school students with college student mentors for advice on college applications and beyond [program curently paused]"
+            },
 
-        {
-            "name": "Hollywood Graph",
-            "uses": "C++",
-            "link": "https://github.com/JessalynWang/hollywood",
-            "image": "film.jpg",
-            "description": "A graph made with data scraped from IMBD that finds the shortest path between actors/actresses with a BFS."
-        }
-    ],
+            {
+                "name": "Climately",
+                "uses": "React.js (first time)",
+                "link": "https://repl.it/join/kfbmterd-jessalynwang",
+                "image": "earth.jpg",
+                "description": "Web app demo built at CruzHacks. Made to educate people on climate change and encourage them to engage"
+            }
+        ]
+    },
 
-    "webapps" : [
-        {
-            "name": "Education Atlas",
-            "uses": "HTML/CSS, JavaScript, AWS, Flask, Python",
-            "link": "http://educationatlasf.org/",
-            "image": "EAF.png",
-            "description": "Website for connecting high school students with college student mentors for advice on college applications and beyond"
-        },
+    {
+        "name": "Machine Learning",
+        "data" : [
+            {
+                "name": "Subvocalization Classifier",
+                "uses": "Python, PyTorch, Numpy, scikit-learn, Pandas",
+                "link": "https://github.com/NeuroTechSC/neurotechML",
+                "image": "emg.jpg",
+                "description": "Machine learning model that can classify between 'yes' and 'no' from subvocalized EMG data. Reaches up to 95% accuracy."
+            }
+        ]
+    }
 
-        {
-            "name": "Climately",
-            "uses": "React.js",
-            "link": "https://repl.it/join/kfbmterd-jessalynwang",
-            "image": "earth.jpg",
-            "description": "Web app demo built at CruzHacks. Made to educate people on climate change and encourage them to act"
-        }
-
-    ]
-}
+]

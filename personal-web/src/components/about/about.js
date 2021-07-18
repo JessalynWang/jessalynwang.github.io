@@ -5,11 +5,11 @@ function About() {
       <div className="about" id="about">
         <div className="cluster">
             <div className="about-title">Hi!</div>
-            <div className="about-desc">My name is Jessalyn Wang, and I am a second year
-            undergraduate student double majoring in Computer Science and Business Management 
-            Economics at the University of California, Santa Cruz. My interests lie in 
-            full-stack web development, machine learning, and data science. In my spare time
-            I love to draw, read, play volleyball and water polo, and watch YouTube.</div>
+            <div className="about-desc">My name is Jessalyn Wang, and I am a third year
+            undergraduate student majoring in Computer Science. I attended UC Santa Cruz for the 
+            first two years of my college career and am an incoming transfer at UC San Diego this fall!
+            My interests lie in web development, machine learning, and data science. 
+            In my spare time I love to draw, read, and travel!</div>
             <div className="about-header"><div>skills</div></div>
             <div className="skills">
               <div><i className="fab fa-python"></i></div>
@@ -19,9 +19,9 @@ function About() {
               <div><i className="fab fa-js-square"></i></div>
             </div>
             <div className="about-header"><div>current involvements</div></div>
-            <a href="https://tech4good.soe.ucsc.edu/#/" rel="noreferrer" target="_blank" className="about-link tech4good"><div>Tech4Good</div></a>
-            <a href="https://neurotech.ucsc.edu/" rel="noreferrer" target="_blank" className="about-link ntxsc"><div>NeuroTechSC</div></a>
-            <a href="https://www.wavelf.org/" rel="noreferrer" target="_blank" className="about-link wave"><div>Wave</div></a>
+            <a href="https://www.maxar.com/" rel="noreferrer" target="_blank" className="about-link maxar"><div>Maxar</div></a>
+            <a href="https://neurotechx.ucsd.edu/" rel="noreferrer" target="_blank" className="about-link ntxsd"><div>NeuroTech at UCSD</div></a>
+            <a href="https://www.lspace.asu.edu/" rel="noreferrer" target="_blank" className="about-link lspace"><div>NASA L'SPACE Academy</div></a>
         </div>
       </div>
     );

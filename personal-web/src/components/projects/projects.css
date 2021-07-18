@@ -30,7 +30,7 @@
     color: white;
     font-size: 16px;
     background-color: var(--deep_purple);
-    width: 200px;
+    width: 300px;
     padding: 5px;
     border: 2px solid white;
     border-radius: 5px;
@@ -42,7 +42,7 @@
 }
 
 .sub-title > button > div {
-    width: 100px;
+    width: 200px;
 }
 
 .sub-title > button:hover {
