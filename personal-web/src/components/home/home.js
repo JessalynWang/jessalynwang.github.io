@@ -1,5 +1,5 @@
 import './home.css';
-import Resume from '../../files/Jessalyn_Wang_Resume_07_2021.pdf'
+import Resume from '../../files/Jessalyn_Wang_Resume_Current_8_24_2021.pdf'
 
 function Home() {
     return (
