@@ -36,13 +36,8 @@
 
 .home-button {
     color: white;
-    height: 40px;
     width: 102px;
-    border-radius: 50px;
-    border: 2px solid white;
     letter-spacing: 2px;
-    font-weight: bold;
-    background-color: var(--light_purple);
     transition: all 0.5s ease;
     margin-bottom: 10px;
     text-align: center;
@@ -52,7 +47,7 @@
 }
 
 .home-button:hover {
-    background-color: var(--deep_purple);
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 530px) {
