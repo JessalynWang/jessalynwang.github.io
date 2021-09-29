@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e5fce70.chunk.css",
-    "main.js": "/static/js/main.faf29583.chunk.js",
-    "main.js.map": "/static/js/main.faf29583.chunk.js.map",
+    "main.css": "/static/css/main.4f877feb.chunk.css",
+    "main.js": "/static/js/main.3db52a2b.chunk.js",
+    "main.js.map": "/static/js/main.3db52a2b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aa6def51.js",
     "runtime-main.js.map": "/static/js/runtime-main.aa6def51.js.map",
     "static/js/2.e0a04bfd.chunk.js": "/static/js/2.e0a04bfd.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.746b94ab.chunk.js": "/static/js/3.746b94ab.chunk.js",
     "static/js/3.746b94ab.chunk.js.map": "/static/js/3.746b94ab.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6e5fce70.chunk.css.map": "/static/css/main.6e5fce70.chunk.css.map",
+    "static/css/main.4f877feb.chunk.css.map": "/static/css/main.4f877feb.chunk.css.map",
     "static/js/2.e0a04bfd.chunk.js.LICENSE.txt": "/static/js/2.e0a04bfd.chunk.js.LICENSE.txt",
     "static/media/EAF.png": "/static/media/EAF.a9913c2b.png",
     "static/media/Jessalyn_Wang_Resume_Current_8_24_2021.0fdfb1c1.pdf": "/static/media/Jessalyn_Wang_Resume_Current_8_24_2021.0fdfb1c1.pdf",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.aa6def51.js",
     "static/js/2.e0a04bfd.chunk.js",
-    "static/css/main.6e5fce70.chunk.css",
-    "static/js/main.faf29583.chunk.js"
+    "static/css/main.4f877feb.chunk.css",
+    "static/js/main.3db52a2b.chunk.js"
   ]
 }
