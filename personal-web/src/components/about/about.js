@@ -6,8 +6,7 @@ function About() {
         <div className="cluster">
             <div className="about-title">Hi!</div>
             <div className="about-desc">My name is Jessalyn Wang, and I am a third year
-            undergraduate student majoring in Computer Science. I attended UC Santa Cruz for the 
-            first two years of my college career and am an incoming transfer at UC San Diego this fall!
+            undergraduate student majoring in Computer Science. Outside of school I am currently an Associate Software Engineer at Maxar Technologies and work in the Tech4Good Lab.
             My interests lie in web development, machine learning, and data science. 
             In my spare time I love to draw, read, and travel!</div>
             <div className="about-header"><div>skills</div></div>
@@ -20,7 +19,7 @@ function About() {
             </div>
             <div className="about-header"><div>current involvements</div></div>
             <a href="https://www.maxar.com/" rel="noreferrer" target="_blank" className="about-link maxar"><div>Maxar</div></a>
-            <a href="https://neurotechx.ucsd.edu/" rel="noreferrer" target="_blank" className="about-link ntxsd"><div>NeuroTech at UCSD</div></a>
+            <a href="https://tech4good.soe.ucsc.edu/" rel="noreferrer" target="_blank" className="about-link ntxsd"><div>Tech4Good</div></a>
             <a href="https://www.lspace.asu.edu/" rel="noreferrer" target="_blank" className="about-link lspace"><div>NASA L'SPACE Academy</div></a>
         </div>
       </div>
