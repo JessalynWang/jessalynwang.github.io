@@ -5,7 +5,7 @@ function Nav() {
       <div className="nav">
           <a className="nav-link" href="#home">Home</a>
           <a className="nav-link" href="#about">About</a>
-          <a className="nav-link" href="#projects">Projects</a>
+          <a className="nav-link" href="#experience">Experience</a>
       </div>
     );
   }

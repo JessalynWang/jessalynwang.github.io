@@ -3,24 +3,24 @@ import './about.css';
 function About() {
     return (
       <div className="about" id="about">
-        <div className="cluster">
-            <div className="about-title">Hi!</div>
-            <div className="about-desc">My name is Jessalyn Wang, and I am a third year
-            undergraduate student majoring in Computer Science. Outside of school I am currently an Associate Software Engineer at Maxar Technologies and work in the Tech4Good Lab.
-            My interests lie in web development, machine learning, and data science. 
-            In my spare time I love to draw, read, and travel!</div>
-            <div className="about-header"><div>skills</div></div>
-            <div className="skills">
-              <div><i className="fab fa-python"></i></div>
-              <div><i className="fab fa-css3-alt"></i></div>
-              <div><i className="fab fa-html5"></i></div>
-              <div><img src="https://img.icons8.com/ios-filled/50/000000/c-plus-plus-logo.png" alt="c++ icon"/></div>
-              <div><i className="fab fa-js-square"></i></div>
-            </div>
-            <div className="about-header"><div>current involvements</div></div>
-            <a href="https://www.maxar.com/" rel="noreferrer" target="_blank" className="about-link maxar"><div>Maxar</div></a>
-            <a href="https://tech4good.soe.ucsc.edu/" rel="noreferrer" target="_blank" className="about-link ntxsd"><div>Tech4Good</div></a>
-            <a href="https://www.lspace.asu.edu/" rel="noreferrer" target="_blank" className="about-link lspace"><div>NASA L'SPACE Academy</div></a>
+        <div className="about-cluster">
+            <div className="about-title">Hello 👋</div>
+            <div className="about-desc">
+              I am an SDE II at Amazon based in the San Francisco Bay Area.
+              I graduated in 2023 from UC San Diego with a B.S. in Computer Science. 
+              In my spare time I love to draw, read, and travel!
+
+              <br/><br/>
+
+              My areas of interest broadly include <b>safety, sustainability, privacy, and HCI</b>.
+              From a technical standpoint I am currently focused on <b>increasing developer productivity</b> by enabling code share and cross-platform development using Kotlin Multiplatform.
+
+              <br/><br/>
+              At Amazon I am with the Amazon Delivery organization and have domain expertise in last mile logistics.
+
+              Particularly, I have been deeply involved in technology for <b>safety and contingency response management </b>
+              as well as <b>large scale anomaly detection and resolution</b>.
+              </div>
         </div>
       </div>
     );

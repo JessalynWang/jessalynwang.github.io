@@ -1,10 +1,6 @@
 .home {
     color: var(--white);
     background-color: var(--deep_purple);
-    background-image: url("../../images/MyPost.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
     min-height: 100vh;
     width: 100vw;
     max-width: 100%;
