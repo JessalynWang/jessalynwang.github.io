@@ -28,9 +28,9 @@ function Experience() {
             </div>
             <div className="work-desc">
               Last Mile. Spent 1.5 years based in Seattle with the Central Operations & Managed By Exception team.
-              There I owned <a href="https://www.youtube.com/watch?v=46Vhlra70Gk" target="_blank">a suite of tools for large-scale anomaly detection and resolution</a> as well as
-              technology for <a href="https://www.aboutamazon.com/news/operations/how-amazon-keeps-employees-and-drivers-safe" target="_blank">Amazon's Contingency Response Center</a>.
-              Moved to the bay area to join DIS & DAT where I have continued to focus on safety and expanded into <a href="https://www.aboutamazon.com/news/transportation/everything-you-need-to-know-about-amazons-electric-delivery-vans-from-rivian" target="_blank">in-vehicle technology</a>.
+              There I owned <a href="https://www.youtube.com/watch?v=46Vhlra70Gk" target="_blank" rel="noopener noreferrer">a suite of tools for large-scale anomaly detection and resolution</a> as well as
+              technology for <a href="https://www.aboutamazon.com/news/operations/how-amazon-keeps-employees-and-drivers-safe" target="_blank" rel="noopener noreferrer">Amazon's Contingency Response Center</a>.
+              Moved to the bay area to join DIS & DAT where I have continued to focus on safety and expanded into <a href="https://www.aboutamazon.com/news/transportation/everything-you-need-to-know-about-amazons-electric-delivery-vans-from-rivian" target="_blank" rel="noopener noreferrer">in-vehicle technology</a>.
             </div>
             <br/>
 
@@ -56,7 +56,7 @@ function Experience() {
               Sept. 2020 - Dec. 2022
             </div>
             <div className="work-desc">
-              Multiple hats for projects Timely, Relate, Annota, and Gratitude in the <a href="https://tech4good.soe.ucsc.edu/" target="_blank">Tech4Good Lab</a>.
+              Multiple hats for projects Timely, Relate, Annota, and Gratitude in the <a href="https://tech4good.soe.ucsc.edu/" target="_blank" rel="noopener noreferrer">Tech4Good Lab</a>.
               Lead quarterly teams of 10+ undergrad developers creating tools for research on interfaces for scheduling, community engagement, and learning qualitative analysis.
               Additionally wrote a bunch of code, thought a lot about user experience, and spent many hours supporting research studies.
             </div>
@@ -111,7 +111,7 @@ function Experience() {
               Honors: Magna Cum Laude, Phi Beta Kappa, Revelle College Provost Honors
               <br/>
               <br/>
-              Class of 2023. Was a member of <a href="https://sites.google.com/ucsd.edu/triton-neurotech" target="_blank">Triton NeuroTech</a> and participated in the <a href="https://ersp.ucsd.edu/" target="_blank">Early Research Scholars Program</a>.
+              Class of 2023. Was a member of <a href="https://sites.google.com/ucsd.edu/triton-neurotech" target="_blank" rel="noopener noreferrer">Triton NeuroTech</a> and participated in the <a href="https://ersp.ucsd.edu/" target="_blank" rel="noopener noreferrer">Early Research Scholars Program</a>.
             </div>
             <br/>
             <hr className="line-break"/>
@@ -130,7 +130,7 @@ function Experience() {
                 Dustin Palea, Elijah Kirby, Madison Gruender, Bryan Min, Jessalyn Wang, David Lee
 
                 <br />
-                <a href="https://dl.acm.org/doi/10.1145/3702652.3744206" target="_blank">Link</a>
+                <a href="https://dl.acm.org/doi/10.1145/3702652.3744206" target="_blank" rel="noopener noreferrer">Link</a>
               </div>
               <br />
 
@@ -143,7 +143,7 @@ function Experience() {
                 Ferran Altarriba Bertran, Laura Bisbe Armengol, Cameron Cooke, Ivy Chen, Victor Dong, Binaisha Dastoor, Kelsea Tadano, Fyez Dean, Jessalyn Wang, Adrià Altarriba Bertran, Jared Duval, and Katherine Isbister
 
                 <br />
-                <a href="https://dl.acm.org/doi/10.1145/3491102.3501860" target="_blank">Link</a>
+                <a href="https://dl.acm.org/doi/10.1145/3491102.3501860" target="_blank" rel="noopener noreferrer">Link</a>
               </div>
             </div>
             <br/>
@@ -157,7 +157,7 @@ function Experience() {
 
               <div>
                 <div className="work-title">
-                  <a href="https://sd-hacks-2022.devpost.com/" target="_blank">Marathon</a>
+                  <a href="https://sd-hacks-2022.devpost.com/" target="_blank" rel="noopener noreferrer">Marathon</a>
                 </div>
                 <div className="work-desc">
                   <b>SDHacks 2022 - Best Community Hack</b>
@@ -170,7 +170,7 @@ function Experience() {
 
               <div>
                 <div className="work-title">
-                  <a href="https://www.youtube.com/watch?v=lCYkRotGZEc" target="_blank">Oz Speller</a>
+                  <a href="https://www.youtube.com/watch?v=lCYkRotGZEc" target="_blank" rel="noopener noreferrer">Oz Speller</a>
                 </div>
                 <div className="work-desc">
                   <b>NeuroTechX Student Clubs Competition 2022 - 2nd overall and 1st out of U.S. schools</b>
@@ -184,7 +184,7 @@ function Experience() {
 
               <div>
                 <div className="work-title">
-                  <a href="https://www.youtube.com/watch?v=bh11Pg4uLxQ" target="_blank">Boolepathy</a>
+                  <a href="https://www.youtube.com/watch?v=bh11Pg4uLxQ" target="_blank" rel="noopener noreferrer">Boolepathy</a>
                 </div>
                 <div className="work-desc">
                   <b>NeuroTechX Student Clubs Competition 2020 - 5th overall and 1st out of U.S. schools</b>
