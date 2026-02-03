@@ -13,12 +13,15 @@ function About() {
               <br/><br/>
 
               My areas of interest broadly include <b>safety, sustainability, privacy, and HCI</b>.
-              From a technical standpoint I am currently focused on <b>increasing developer productivity</b> by enabling code share and cross-platform development using Kotlin Multiplatform.
+              From a technical standpoint I am currently focused on <b>increasing developer and QA productivity</b> by
+              building agentic workflows for automation test generation, test plan creation, and smart test case filtering.
+              
+              AI aside I also drive code share enablement through cross-platform development using Kotlin Multiplatform.
 
               <br/><br/>
               At Amazon I am with the Amazon Delivery organization and have domain expertise in last mile logistics.
 
-              Particularly, I have been deeply involved in technology for <b>safety and contingency response management </b>
+              Particularly, I have been deeply involved in technology for <b>driver safety and contingency response management </b>
               as well as <b>large scale anomaly detection and resolution</b>.
               </div>
         </div>
